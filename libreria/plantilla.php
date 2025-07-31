@@ -32,7 +32,7 @@ class plantilla{
         ?>
         </div>
         <hr>
-        <p style="text-align:center">Desarrollado por Yerelin Rosario</p>
+           <p style="text-align:center">💅 Desarrollado con amor por Yerelin Rosario | ¡Nunca dejes de soñar como Barbie! 🌟</p>
      </body>
 </html>
         <?php
