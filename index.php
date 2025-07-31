@@ -3,7 +3,7 @@
     plantilla::aplicar();
 ?>
 
-<h1>🩷Profesiones en el mundo de Barbie✨</h1>
+<h1 style="font-family: 'Dancing Script', cursive;">🩷 Bienvenida al universo profesional de Barbie ✨</h1>
 <p>¡Bienvenida a un mundo donde los sueños se hacen realidad! Aquí puedes registrar y gestionar todas las increíbles profesiones de Barbie. Desde astronauta hasta diseñadora de moda, cada carrera es una oportunidad para brillar. Porque ser una líder nunca pasa de moda. 🌸👑</p>
 <p>Barbies registradas:</p>
 
