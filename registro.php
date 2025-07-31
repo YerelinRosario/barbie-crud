@@ -20,6 +20,8 @@
 
 <h1>👩🏻Registro de Barbies</h1>
 <p>Por favor, ingrese los datos de Barbie:</p>
+<p><strong>Todos los campos son obligatorios. Asegúrate de completarlos correctamente.</strong></p>
+
 
 <form method="post" action="guardar.php">
 
@@ -50,7 +52,7 @@
                     echo "<td><input type='text' name='profesiones[nombre][]' value='{$profesion->nombre}'></td>";
                     echo "<td><input type='text' name='profesiones[categoria][]' value='{$profesion->categoria}'></td>";
                     echo "<td><input type='number' name='profesiones[nivel_experiencia][]' value='{$profesion->nivel_experiencia}'></td>";
-                    echo "<td><input type='number' name='profesiones[salario][]' value='{$profesion->salario}'></td>";
+                    echo "<td><input type='number' name='profesiones[salario][]' value='{$profesion->salario}' required min=\"1\"></td>";
                     echo "<td><button type='button' onclick='quitarFila(this)'>❌</button></td>";
                     echo "</tr>";
                 }
