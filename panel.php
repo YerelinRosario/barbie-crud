@@ -87,7 +87,7 @@
 <body>
 
     <header>
-    <h1>📊 Panel de Estadísticas de Barbie</h1>
+    <h1>👩‍💼 Estadísticas Profesionales del Mundo Barbie</h1>
 </header>
 
 <div class="d-derecha">
@@ -117,7 +117,7 @@
         </div>
         <br>
         <div class="card bg-white p-6 rounded-lg shadow-md text-center">
-            <h2>💥 Nivel de experiencia más común</h2>
+            <h2>🫢💥 Nivel de experiencia más común</h2>
             <p><?php echo $nivel_experiencia_comun; ?></p>
         </div>
         <br>
@@ -135,7 +135,7 @@
         </div>
         <br>
         <div class="card bg-white p-6 rounded-lg shadow-md text-center">
-            <h2>📉 Profesión menos remunerada</h2>
+            <h2>📉 Profesión menos remunerada 😥</h2>
             <p><?php 
             if ($profesion_min) {
                 echo $profesion_min->nombre . " (" . number_format($profesion_min->salario, 2) . ")";
@@ -146,7 +146,7 @@
         </div>
         <br>
         <div class="card bg-white p-6 rounded-lg shadow-md text-center">
-            <h2>🪷 Salario promedio en el mundo Barbie</h2>
+             <h2>💸 Promedio de salarios Barbie</h2>
             <p><?php echo number_format($salario_promedio, 2); ?></p>
         </div>
         <br>
