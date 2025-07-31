@@ -45,7 +45,8 @@
                     <td>{$personaje->n_profesiones()}</td>
                     <td>{$personaje->salario()}</td>
                     <td>
-                        <a href='registro.php?codigo={$personaje->identificacion}' class='button'>Editar</a>
+                        <a href='registro.php?codigo={$personaje->identificacion}' class='button'>Editar</a>   /*🔽 boton para eliminar registro de barbie*/ 
+                        
                         <a href='eliminar.php?codigo={$personaje->identificacion}' class='button' onclick=\"return confirm('¿Estás segura de que deseas eliminar esta Barbie?')\">Eliminar</a>
                     </td>
                 </tr>

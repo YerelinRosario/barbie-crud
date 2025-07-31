@@ -9,11 +9,11 @@ if (isset($_GET['codigo'])) {
         echo "<h1>🗑️ Barbie eliminada</h1>";
         echo "<p>La Barbie ha sido eliminada correctamente.</p>";
     } else {
-        echo "<h1>🚫 Error</h1>";
+        echo "<h1>🚫 ERROR</h1>";
         echo "<p>No se encontró el archivo a eliminar.</p>";
     }
 } else {
-    echo "<h1>🚫 Error</h1>";
+    echo "<h1>🚫 ERROR</h1>";
     echo "<p>No se recibió ningún código para eliminar.</p>";
 }
 ?>
