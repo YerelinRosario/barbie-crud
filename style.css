@@ -1,0 +1,147 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #ffe0ec;
+    margin: 0;
+    padding: 0;
+    color: #333; 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    min-height: 800px;
+    background-color: #ffffff; /* Fondo blanco para frescura y contraste con otros colores */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para darle profundidad */
+}
+
+input {
+    font-family: "Arial", sans-serif;
+    font-size: 1.5em;
+    color: #333 !important; /* Cambiar texto a color oscuro */
+    background-color: #fce4ec; /* Un suave tono rosado que no es tan intenso */
+    border: 2px solid #ff80ab; /* Un rosado más suave que complementa el fondo */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: "Dancing Script," cursive;
+    font-size: 2.8em;
+    color: #ff4081; /* Un rosado vibrante pero no demasiado saturado */
+    text-align: center;
+    text-shadow: 3px 3px 10px rgba(255, 64, 129, 0.6); /* Sombra suave para darle un toque más estilizado */
+}
+
+p {
+    font-size: 1.5em;
+    color: #6a1b9a; /* Morado suave para complementar el rosado y darle elegancia */
+}
+
+label, input {
+    font-size: 1.5em;
+    color: #333; /* Color oscuro para los textos */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f1f8e9; /* Un verde suave para una base tranquila */
+    border-radius: 10px;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+th {
+    background-color: #ff80ab; /* Un rosado suave */
+    color: #ffffff; /* Blanco para contrastar con el rosado */
+    padding: 12px;
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    color: #333;
+}
+
+.d-derecha {
+    text-align: right;
+}
+
+.d-izquierda {
+    text-align: left;
+}
+
+.boton {
+    background: linear-gradient(45deg, #ff4081, #81c784); /* Un rosado a verde suave */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.boton:hover {
+    background: linear-gradient(45deg, #81c784, #ff4081); /* Invierte el gradiente al pasar el mouse */
+    transform: scale(1.1);
+}
+
+.dashboard {
+    max-width: 900px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 3cm;
+}
+
+/* Estilos de las tarjetas */
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    text-align: center;
+    flex-grow: 1;
+    max-width: 300px;
+}
+
+.card h2 {
+    font-size: 18px;
+    color: #ff3399;
+}
+
+.card p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Tarjeta especial de lista */
+.card.full-width {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+}
+
+.card.full-width ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card.full-width li {
+    font-size: 16px;
+    padding: 5px 0;
+}
